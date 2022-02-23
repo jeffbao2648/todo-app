@@ -33,3 +33,14 @@ h1 {
 .list-title {
     margin-left: 20px;
 }
+
+header a {
+    color: gold;
+    text-decoration: none;
+}
+
+.list a {
+    color: teal;
+    text-decoration: none;
+}
+
