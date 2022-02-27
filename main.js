@@ -1,6 +1,8 @@
 function addNewList() {
     alert('hello world alert!');
     console.log('hello world console');
+    let list = document.getElementById("grocery-list");
+
 }
 
 function addListItem() {
