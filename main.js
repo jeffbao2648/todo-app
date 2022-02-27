@@ -5,6 +5,7 @@ function addNewList() {
 
 function addListItem() {
     console.log('hello world');
+    let list = document.getElementById("grocery-list");
     let itemInput = document.getElementById("text-input");
     let newItem = document.createElement("li");
     newItem.appendChild(document.createTextNode(itemInput.value));
