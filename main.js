@@ -9,5 +9,9 @@ function addListItem() {
     let newItem = document.createElement("li");
     newItem.appendChild(document.createTextNode(itemInput.value));
     list.appendChild(newItem);
-
 }
+
+function deleteListItem(item) {
+    console.log(item);
+}
+
