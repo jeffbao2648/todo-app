@@ -4,7 +4,6 @@ function addNewList() {
 }
 
 function addListItem() {
-    window.print("Hello");
     let list = document.getElementById("grocery-list");
     let itemInput = document.getElementById("text_input");
     let newItem = document.createElement("li");
