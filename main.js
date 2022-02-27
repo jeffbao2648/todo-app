@@ -12,6 +12,7 @@ function addListItem() {
 }
 
 function deleteListItem(item) {
-    console.log(item);
+    //remove li element (item) from ol element (item.parentNode)
+    item.parentNode.removeChild(item);
 }
 
