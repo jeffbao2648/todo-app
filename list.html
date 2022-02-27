@@ -16,25 +16,25 @@
         <a href="settings.html">settings</a>
     </nav>
     </header>
-</body>
 
-</html>
+    <div id="todo-lists">
+        <div class="list">
+          <h2 class="list-title">Groceries</h2>
+          <ol>
+            <li>Eggs <button class="delete-item" 
+            onclick="deleteListItem(this.parentNode)">X</button></li>
+            <li>Milk <button class="delete-item" 
+            onclick="deleteListItem(this.parentNode)">X</button></li>
+            <li>Cereal <button class="delete-item" 
+            onclick="deleteListItem(this.parentNode)">X</button></li>
+          </ol>
+        </div>
+        <label for="text_input">Text Input:</label>
+        <input id="text_input" type="text"> </input>
+        <button onclick="addListItem()">Add Item</button>
 
-<div id="todo-lists">
-    <div class="list">
-      <h2 class="list-title">Groceries</h2>
-      <ol>
-        <li>Eggs <button class="delete-item" 
-        onclick="deleteListItem(this.parentNode)">X</button></li>
-        <li>Milk <button class="delete-item" 
-        onclick="deleteListItem(this.parentNode)">X</button></li>
-        <li>Cereal <button class="delete-item" 
-        onclick="deleteListItem(this.parentNode)">X</button></li>
-      </ol>
     </div>
-    <label for="text-input">Text Input:</label>
-    <input id="text-input" type="text"> </input>
-    <button onclick="addListItem()">Add Item</button>
 
-</div>
+</body>
+</html>
 
